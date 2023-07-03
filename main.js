@@ -1,6 +1,7 @@
 const axios = require('axios');
 const fs = require('fs');
 const csv = require('csv-parser');
+// This will execute all requests for file and then return promises
 
 // Create a write stream to the results file
 const writeStream = fs.createWriteStream('results.txt');
